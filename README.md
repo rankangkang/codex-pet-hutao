@@ -52,14 +52,16 @@ python scripts/make_install_link.py --image-url 'https://example.com/spritesheet
 
 ## 保存到 GitHub
 
-登录自己的 GitHub 账号后，在这个目录运行：
+项目仓库：[rankangkang/codex-pet-hutao](https://github.com/rankangkang/codex-pet-hutao)。
+
+在其他电脑上获取项目：
 
 ```sh
-gh auth login --hostname github.com --git-protocol https --web
-gh repo create hutao-pet --private --source . --remote origin --push
+git clone https://github.com/rankangkang/codex-pet-hutao.git
+cd codex-pet-hutao
 ```
 
-如果已经设置了远程仓库，使用 `git push -u origin main`。本项目默认按私有备份整理，未附加开源许可。
+在当前仓库提交修改后，使用 `git push -u origin main` 上传。GitHub 登录由本机的 Git 凭据管理器或 `gh auth login` 管理。本项目未附加开源许可。
 
 ## 制作记录
 
