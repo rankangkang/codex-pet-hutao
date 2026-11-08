@@ -1,0 +1,8 @@
+{
+  "id": "piegg",
+  "displayName": "皮蛋",
+  "description": "根据皮蛋的照片制作的黑柴桌宠，穿着红领巾和牛仔装。",
+  "spritesheetPath": "spritesheet.png",
+  "spriteVersionNumber": 2,
+  "sha256": "8a22af56b0bb1157b966adb856dfdbf893446afe0a0402817f3ed30ed03cfe0b"
+}
