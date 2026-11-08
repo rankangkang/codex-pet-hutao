@@ -9,5 +9,6 @@ venv/
 build/
 dist/
 *.zip
+!packages/openpets/*-openpets.zip
 *.bundle
 

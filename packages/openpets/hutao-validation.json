@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "target": "OpenPets 4.1.0",
+  "spriteVersionNumber": 2,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "authored_animation_frames_preserved": 73,
+  "changed_cells_zero_based": [
+    [
+      0,
+      6
+    ]
+  ],
+  "static_neutral_cell_zero_based": [
+    0,
+    6
+  ],
+  "static_neutral_source_zero_based": [
+    0,
+    0
+  ],
+  "lossless_pixel_roundtrip": true,
+  "source_sha256": "2444042e3fd1d23cc47b72589592bf90eaa76d0829bd1e70da39839734cef64b",
+  "spritesheet_sha256": "c390a6022cfb72c13924fb59f335a32f93ead44de8a69dc94478d42c53a1ce05",
+  "zip_sha256": "9d0c5f0e90742b3dcfdda8b3ac8237d0f8745ba74fcac0acb0b4c3c0db979e08",
+  "zip_bytes": 1929877,
+  "source_reference": "https://github.com/OpenPetsHQ/openpets/blob/v4.1.0/apps/desktop/src/codex-pets-core.ts"
+}

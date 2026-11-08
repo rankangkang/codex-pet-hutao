@@ -1,10 +1,23 @@
 # 胡桃 · Hu Tao
 
-根据头像创作的 ChatGPT Work / Pets 动画伙伴：圆框眼镜、紫色头发与大胡子、暖黄色上衣和青绿色背带裤。
+根据头像创作的动画伙伴：圆框眼镜、紫色头发与大胡子、暖黄色上衣和青绿色背带裤。可用于 ChatGPT Work / Pets，也提供 OpenPets 独立桌宠导入包。
 
 ![胡桃挥手](assets/previews/waving.gif)
 
 这份项目保存最终宠物图、原始头像、生成的动作条、创作提示词、检查记录，以及本次制作的可复用 Python 工具。
+
+## 用 OpenPets 作为独立桌宠
+
+1. 从 [OpenPets 官方发布页](https://github.com/OpenPetsHQ/openpets/releases)安装适合自己系统的应用。
+2. 下载本仓库的 [胡桃 OpenPets 导入包](packages/openpets/hutao-openpets.zip)，保留 ZIP 格式。
+3. 打开 OpenPets 控制中心，进入「宠物」→「导入宠物」→「ZIP」，选择这个文件。
+4. 在胡桃卡片上点击「设为默认」，关闭控制中心即可在桌面上看到胡桃。
+
+基础桌宠使用无需配置 Codex、其他 Agent、模型或 API key。OpenPets 提供 Windows、macOS 和 Linux 发行版；本仓库目前实测的是 macOS Apple Silicon 上的 OpenPets 4.1.0，已完成本地 ZIP 导入、设为默认、静态缩略图、动画预览和桌面拖动交互检查。未进行 Windows、Linux 或断网启动测试。
+
+试用时在线图库出现 `This operation was aborted`，本地导入和桌宠显示仍成功。具体检查结果见 [试用记录](packages/openpets/smoke-test.json)。
+
+导入包仅包含 `hutao/pet.json` 和 `hutao/spritesheet.webp`。这是已有作品的格式适配：导出无损 WebP，并把第一个待机帧复制到 OpenPets 4.1.0 约定的静止格（从 0 计数的第 0 行、第 6 列），用于静态预览和暂停显示。73 个原始动画帧逐像素保留，`assets/spritesheet.png` 保持原样。布局依据 [OpenPets 4.1.0 源码](https://github.com/OpenPetsHQ/openpets/blob/v4.1.0/apps/desktop/src/codex-pets-core.ts)。
 
 ## 动画资源
 
@@ -28,6 +41,14 @@ python scripts/render_previews.py
 
 生成的预览放在 `build/previews/`，不会覆盖已检查的动画图。脚本不需要 OpenAI API key，也不依赖本机安装目录。
 
+重新生成 OpenPets 导入包：
+
+```sh
+python scripts/package_openpets.py
+```
+
+输出到 `packages/openpets/`，同时生成 [校验报告](packages/openpets/hutao-validation.json)，检查无损编码、变化格子、ZIP 完整性和原图摘要。此导出脚本目前针对本项目的 v2 动画图。
+
 `verify_assets.py` 检查已保存资源的摘要、动画图格式和格子占用；正式导入仍需由 Pets 的上传前检查确认兼容性。新的图像生成和完整宠物创建流程使用 Pets 插件的 create-pet 技能。
 
 `scripts/register_standard_rows.py` 保存了本次制作使用的行内统一缩放和地面位置调整工具。输入是已提取的帧目录及 `frames-manifest.json`，例如：
@@ -36,7 +57,7 @@ python scripts/render_previews.py
 python scripts/register_standard_rows.py extracted-frames build/registered-frames
 ```
 
-## 从 GitHub 安装
+## 安装到 ChatGPT Work / Pets
 
 把宠物仓库链接交给装有 Pets 插件的助手，即可下载兼容动画图，检查后导入。私有仓库需要访问该仓库的 GitHub 登录。
 

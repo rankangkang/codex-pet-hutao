@@ -1,0 +1,11 @@
+{
+  "id": "hutao",
+  "displayName": "胡桃",
+  "description": "从你的头像走出来的圆框眼镜大胡子伙伴，穿暖黄色上衣和青绿色背带，安静陪你工作。",
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2,
+  "gazeAnchor": {
+    "x": 0.5,
+    "y": 0.45
+  }
+}

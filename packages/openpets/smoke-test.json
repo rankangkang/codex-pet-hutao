@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-08",
+  "application": "OpenPets",
+  "version": "4.1.0",
+  "platform": "macOS arm64",
+  "installer_source": "https://github.com/OpenPetsHQ/openpets/releases/tag/v4.1.0",
+  "installer_filename": "OpenPets-4.1.0-mac-arm64.dmg",
+  "installer_sha256": "cb2e34d574e0e7bc032f95790fa0d75ca2b81d71a864b0f655908e2d39fecfe3",
+  "checks": {
+    "official_application_launched": true,
+    "local_zip_imported_through_gui": true,
+    "hutao_selected_as_default": true,
+    "default_pet_preference_confirmed": true,
+    "installed_metadata_matches_package": true,
+    "installed_webp_matches_package": true,
+    "static_thumbnail_visible": true,
+    "animation_previews_visible": true,
+    "desktop_pet_visible": true,
+    "drag_response_observed": true,
+    "agent_setup_required": false
+  },
+  "limitations": [
+    "Windows and Linux were not tested.",
+    "Offline launch was not tested.",
+    "The online catalog reported 'This operation was aborted'; local import and rendering succeeded.",
+    "Pause mode and all sixteen gaze directions were not individually exercised in the application."
+  ]
+}
