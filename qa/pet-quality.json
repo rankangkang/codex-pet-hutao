@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "atlas": "original-run/final/spritesheet-extended.png",
+  "encoded_bytes": 2562996,
+  "sha256": "2444042e3fd1d23cc47b72589592bf90eaa76d0829bd1e70da39839734cef64b",
+  "jump": {
+    "idle_baseline": 203,
+    "jump_baselines": [
+      202,
+      191,
+      170,
+      188,
+      202
+    ],
+    "airborne_lift_pixels": 32,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      96.0,
+      92.5,
+      92.5,
+      92.0,
+      93.0,
+      93.5,
+      94.5,
+      96.5,
+      93.5,
+      94.5,
+      95.0,
+      94.0,
+      94.0,
+      93.5,
+      94.5,
+      93.5
+    ],
+    "look_widths": [
+      94,
+      93,
+      93,
+      92,
+      92,
+      89,
+      89,
+      89,
+      89,
+      87,
+      86,
+      86,
+      90,
+      89,
+      89,
+      91
+    ],
+    "maximum_center_drift_pixels": 3.5,
+    "maximum_width_ratio": 1.0930232558139534
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 135 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 225 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 292.5 accepted with a reviewed warning",
+    "look direction 315 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (1235 pixels vs neighbor average 708)"
+  ]
+}

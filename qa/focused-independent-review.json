@@ -1,0 +1,11 @@
+{
+  "reviewer": "visual_idle",
+  "source": "qa/down-diagonal-face-detail.png",
+  "verdicts": {
+    "135": "pass: nose right of head center; both irises low-right; right head yaw.",
+    "157.5": "pass: nose and mouth shifted right; both irises low-right; coherent yaw.",
+    "202.5": "pass: nose left of center; both irises low-left; left head yaw.",
+    "225": "pass: stronger left yaw; nose and mouth left of center; both irises low-left."
+  },
+  "overall": "All four intended quadrants confirmed; no reversed gaze or head/eye contradiction."
+}

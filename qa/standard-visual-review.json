@@ -1,0 +1,12 @@
+{
+  "identity": "Avatar features and warm painterly material preserved in every state.",
+  "idle": "Visible blink and gentle head breathing; hands and shoes remain near rest.",
+  "gait": "Right row has alternating contact/passing/flight poses, head/eyes face right; left framewise mirror faces left and preserves time order.",
+  "waving": "Raised attached hand and tilt communicate greeting without marks.",
+  "jumping": "Crouch, rise, peak, descent, settle. Shared row registration retains source vertical travel; baseline matches idle. All other rows receive one common per-row transform to match the jump resting height and reserve jump headroom.",
+  "failed": "Eyebrows lift in worry, head slumps with closed eyes, recovers.",
+  "waiting": "Both palms rise in an expectant question gesture.",
+  "running": "Planted feet with busy hands and chin gestures indicate active thinking.",
+  "review": "Head tilt, scanning eyes and hand at beard communicate inspection.",
+  "playback": "Viewed ordered contact at native cell bounds; loops preserve body identity, planted ground, and intended airborne displacement. Per-state GIFs generated from assembled standard-row frames."
+}

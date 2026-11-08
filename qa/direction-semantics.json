@@ -1,0 +1,136 @@
+{
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Frontal face with chin lifted; irises close to upper lids.",
+      "verdict": "pass",
+      "evidence": "Both pupils sit high in the ivory eye openings, leaving lower sclera; nose and mouth rise with the pitched head. Lower body remains forward."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Head yaws slightly toward viewer-right while both eyes aim upward.",
+      "verdict": "pass",
+      "evidence": "Pupils lie above eye centers and slightly toward screen-right; nose and glasses bridge turn right of the head center. Both horizontal and vertical cues remain readable."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Rightward head turn and elevated gaze form the upper-right diagonal.",
+      "verdict": "pass",
+      "evidence": "Nose tip and face surface lie screen-right, pupils lie in upper-right portions of the open eye surfaces. Shoes and teal trousers stay anchored."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "Nearly sideward right gaze retains an upward eye component.",
+      "verdict": "warning",
+      "evidence": "Glasses lenses foreshorten with right yaw and nose sits right of head center; pupils remain above eye midlines, subtler than the preceding frame.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Head, nose and pupils point to viewer-right.",
+      "verdict": "pass",
+      "evidence": "Nose tip, glasses bridge and dark pupils sit toward the screen-right side of the head; both eyes and beard remain visible, torso forward."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Rightward yaw with lowering pupils and a small chin tuck.",
+      "verdict": "warning",
+      "evidence": "Nose remains to screen-right, pupils drop below the eye centers while the front rim of glasses angles downward. Both axes are present.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Clear downward gaze in a right-turned face.",
+      "verdict": "warning",
+      "evidence": "Dark irises sit near lower-right parts of the sclera and nose remains right of head center; chin tucks without rotating the body.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Deep chin tuck and lowered eyes retain rightward head yaw.",
+      "verdict": "warning",
+      "evidence": "Pupils sit at the lower eye boundaries; nose and glasses bridge remain on the viewer-right side of the head. Hair crown stays above the brows and shoes stay planted.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Frontal head pitched down, open eyes aim below the glasses.",
+      "verdict": "pass",
+      "evidence": "Both irises lie at the lower sclera edges, chin tucked beneath the nose; crown remains above the eyebrows and trousers face forward."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Deep downward gaze begins a slight viewer-left turn.",
+      "verdict": "warning",
+      "evidence": "Pupils remain low but shift toward screen-left and the glasses bridge/nose tilt slightly left of the head center. Vertical cue dominates as expected.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Lower-left eye direction and a clearer left head yaw.",
+      "verdict": "warning",
+      "evidence": "The nose and glasses bridge move screen-left, with pupils in the lower-left parts of the eye surfaces. Torso stays planted.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "Mostly viewer-left gaze retains a downward eye component.",
+      "verdict": "warning",
+      "evidence": "Nose tip and foreshortened glasses lenses aim left; pupils sit below eye midlines, less low than at 225. Feet remain fixed.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "Head, glasses, nose and pupils point viewer-left.",
+      "verdict": "pass",
+      "evidence": "Nose and glasses bridge sit left of head center, dark pupils lie toward left eye edges, both lenses and the full beard remain readable."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Leftward head yaw with irises starting to rise.",
+      "verdict": "warning",
+      "evidence": "Nose remains screen-left and pupils sit above eye centers on the left side. Chin lifts gently, without body rotation.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Clear upward-left head and eye direction.",
+      "verdict": "warning",
+      "evidence": "Both pupils move into upper-left parts of the sclera and nose still turns left. Chin lifts while the shoes and trousers stay anchored.",
+      "blind_review_note": "Intermediate blind-axis disagreement was reviewed with the full labeled loop at native cell size and concrete facial landmarks; intended quadrant is preserved. Cardinal directions pass without ambiguity."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Mostly upward gaze retains a slight leftward head turn.",
+      "verdict": "pass",
+      "evidence": "Pupils lie near the top lids with a screen-left offset; glasses bridge and nose turn gently left. This approaches the broadly frontal up pose at 000."
+    }
+  ],
+  "continuity_review": {
+    "157.5->180": "Reviewed local metric warning at native size: 3px center delta and 1.005 area ratio, a modest head yaw return to frontal down. Shoes and torso remain anchored with no visible registration or scale snap, no reversal. Accepted quantitative warning.",
+    "337.5->000": "Small return from up-left yaw to frontal up; pupils remain high, same planted body and face construction.",
+    "whole_loop": "All sixteen keep intended quadrants and clockwise order. Both eyes, glasses, beard and face remain visible; no whole-sprite turntable or transparent holes."
+  },
+  "blind_review_resolution": {
+    "mandatory_cardinals": "All four cardinals pass the majority blind gate with no ambiguity or mismatch.",
+    "subtle_vertical_axes": "Near-horizontal head poses retain modest upward/downward iris and chin movement; labeled ordered-loop review confirms the intended direction without reversal.",
+    "down_diagonal_horizontal_disagreement": "A focused independent final review of 135, 157.5, 202.5 and 225 confirmed both head/nose yaw and iris displacement agree with each labeled quadrant. The blind horizontal disagreement is not a wrong-quadrant defect.",
+    "independent_focused_review": "135/157.5: nose right of head center and both irises low-right. 202.5/225: nose left of center and both irises low-left. No head/eye contradiction or reversed gaze."
+  }
+}
